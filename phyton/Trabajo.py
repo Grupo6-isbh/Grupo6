@@ -24,8 +24,6 @@ f(3): c
 f(1): d
 '''
 
-
-
 ''' 4) Escribir en simbolos una función lineal, y su correspondiente codificación en python:
 La funcion Lineal en simbolo es:
     f(x)= mx + b o y=mx + b '''
@@ -42,3 +40,13 @@ def Funcion_Cuadratica(a,x,b,c):
     y = a * x**2 + b * x + c
     return y
 
+''' 6) Escribir en simbolos una función condicional, y su correspondiente codificación en python:
+La funcion Condicional en simbolo es:
+    f(x)= a si x cumple la condicion y seria b si la condicion no se cumple '''
+
+def Funcion_Condicional(x):
+    if x > 30:
+        y = "x cumple la condicion"
+    else:
+        y = "x no cumple la condcion"
+    return y
