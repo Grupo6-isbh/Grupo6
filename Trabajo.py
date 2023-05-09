@@ -61,8 +61,6 @@ La funcion senoidal en simbolo es:
 f(x)= a sin(bx+c)+d
 '''
 
-#lo tuve que comentar ya que no me dejaba importar las bibliotecas numpy y matpltlib.pyplot
-
 import math
 
 def Funcion_senoidal(a,b,x,c,d):
