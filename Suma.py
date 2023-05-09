@@ -1,8 +1,3 @@
-def suma():
-    num1=float(input("Ingrese un numero: "))
-    num2=float(input("Ingrese un numero: "))
-    suma=num1+num2
+def suma(a,b):
+    suma=a+b
     return suma
-
-resultado= suma()
-print("El resultado es: ",resultado)
