@@ -1,7 +1,7 @@
 import Suma
 import resta
 import division
-import Multiplicacion
+import multiplicacion
 
 # Pedir al usuario que elija una operación
 operacion = input("Elija una operación (suma, resta, division, multiplicacion): ")
@@ -21,7 +21,7 @@ elif operacion == "division":
     resultado = division.division(num1, num2)
     print("La resta de los dos números es:", resultado)
 elif operacion == "mulriplicacion":
-    resultado = Multiplicacion.multiplicacion(num1, num2)
+    resultado = multiplicacion.multiplicacion(num1, num2)
     print("La resta de los dos números es:", resultado)
 else:
     print("Operación inválida.")
